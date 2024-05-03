@@ -9,7 +9,6 @@ public class ConsumerThread extends Thread {
 	@Override
 	public void run()
 	{
-		
 		while(true)
 		{
 			System.out.println("getData() method called by Consumer Thread");
